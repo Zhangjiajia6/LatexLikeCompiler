@@ -1,0 +1,31 @@
+#ifndef TOKENDEF_H
+#define TOKENDEF_H
+enum{
+	SUB,
+	SUP,
+	LEFTBRACE,
+	RIGHTBRACE,
+	LEFTBRACKET,
+	RIGHTBRACKET,
+	INT,
+	SUM,
+	ID,
+	NUM,
+	BLANK,
+	DOLLAR
+};
+char *TokenStr[] = {
+	"SUB",
+	"SUP",
+	"LEFTBRACE",
+	"RIGHTBRACE",
+	"LEFTBRACKET",
+	"RIGHTBRACKET",
+	"INT",
+	"SUM",
+	"ID",
+	"NUM",
+	"BLANK",
+	"DOLLAR"
+};
+#endif
