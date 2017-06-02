@@ -20,13 +20,6 @@
 char id[20];
 char num[20];
 
-struct Attr{
-	int top;
-	int left;
-	int fontsize;
-	int width;
-};
-
 int GetNextToken(FILE *stream);
 int Parser(FILE *stream, Stack *SyntaxStack);
 void PrintUsg(char *procname);
